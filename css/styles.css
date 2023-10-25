@@ -29,8 +29,16 @@ header .menu{
 }
 header .menu ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
+
+    
+    
+}
+header .menu h1{
+    text-align: center;
+    align-items: center;
+    color: white;
 }
 header .menu ul .list a{
     
@@ -39,6 +47,12 @@ header .menu ul .list a{
     text-align: center;
     text-decoration: none;
     list-style-type: none;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 50px;
+    border-radius: 50px;
     
     
     
@@ -47,10 +61,12 @@ header .menu ul .list{
     text-decoration: none;
     list-style-type: none;
     margin: 20px 50px;
+     
     
 }
 header .menu ul .list img{
     width: 100px;
+    
     
 }
 /*header grid*/
@@ -79,16 +95,24 @@ width: 100vw;
 }
 .layout .header .menu ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
+    
 }
 .layout .header .menu ul .list {
     text-decoration: none;
     list-style-type: none;
     margin: 20px 50px;
+    
 }
 .layout .header .menu ul .list img{
     width: 100px;
     
+}
+.layout .header .menu h1{
+    text-align: center;
+    align-items: center;
+    color: white;
 }
 .layout .header .menu ul .list a{
     color: white;
@@ -96,6 +120,13 @@ width: 100vw;
     text-align: center;
     text-decoration: none;
     list-style-type: none;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 50px;
+    border-radius: 50px;
+    
     
 }
 header .logo{
@@ -140,10 +171,18 @@ header label:hover{
     
     
 }
+.banner-text:hover{
+    transform: scale(1.2);
+    
+    
+}
 
 .banner .banner-text a{
     text-decoration: none;
-    background-color: #A7C957;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     padding: 10px;
     font-size: 20px;
     margin-top: 20px;
@@ -160,17 +199,19 @@ main section div .map{
     display: flex;
     padding: 50px;
     margin: 10px;
-    background: #FFE000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #F7971E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     
     
 
 }
 .map-text{
-    background: #FFE000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #F7971E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -269,9 +310,10 @@ main #btn1 lord-icon{
 
 main .section{
     position:absolute;
-    background: #FFE000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 
     visibility: hidden;
     width: 90%;
@@ -420,15 +462,21 @@ footer .redes{
     height: 100%;
     display: flex;
     list-style: none;
-    background: #FFE000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #F7971E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     justify-content: space-between;
     
 }
 footer .redes img{
     width: 50px;
     height: 50px;
+}
+.layout .footer ol{
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
     
 
@@ -443,27 +491,29 @@ footer .redes img{
         justify-content: space-between;
         align-items: center;
     }
+    header .menu h1{
+        display: none;
+    }
     header nav ul .list{
-    
         align-items: center;
         text-align: center;
-        background-color: #DCE35B;
-        border-radius: 30px;
-        padding: 10px;
         list-style: none;
+        height: 80px;
+        
+        
         
     }
     header .logo{
         display: block;
         width: 70px;
         margin-left: 25px;
+        
     }
+    
     header #logo-hidden{
         display: none;
     }
-    header #logo-hidden{
-        display: none;
-    }
+    
     header label{
         display: block;
         position: relative;
@@ -471,6 +521,7 @@ footer .redes img{
     }
     header label img{
         width: 50px;
+        
     }
     header .menu{
         position: absolute;
@@ -492,12 +543,17 @@ footer .redes img{
     header .menu ul .list a img{
         display: none;
     }
+    
     /*grid productos hamburguer menu*/
     .layout .header{
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
 
+    }
+    .layout .header .menu h1{
+        display: none;
     }
     .layout .header .menu ul .list a img{
         display: none;
@@ -506,10 +562,10 @@ footer .redes img{
     
         align-items: center;
         text-align: center;
-        background-color: #DCE35B;
         border-radius: 30px;
         padding: 10px;
         list-style: none;
+        height: 80px;
         
     }
 
@@ -787,6 +843,8 @@ footer .redes img{
         padding: 10px;
         flex-wrap: wrap;
         margin: 50px;
+        text-align: center;
+        align-items: center;
         
         
     
@@ -806,6 +864,7 @@ footer .redes img{
         background-size: cover;
         background-position: left;
         text-align: center;
+        
     }
     /*footer*/
     footer .redes{
@@ -814,15 +873,20 @@ footer .redes img{
         height: 100%;
         display: flex;
         list-style: none;
-        background: #FFE000;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #F7971E;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         justify-content: space-between;
         
     }
     footer .redes img{
         width: 50px;
         height: 50px;
+    }
+    .layout .footer ol{
+        background: #F7971E;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 }
     
