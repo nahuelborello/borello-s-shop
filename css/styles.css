@@ -8,37 +8,42 @@ html{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
-    background: #DCE35B;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #457B9D;
     
+
 }
 /* header */
 
 header{
     
-    background: #FFE000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #1D3557;
 
 }
 header .menu{
     
-    
+    display: flex;
+    justify-content: space-between;
     
 }
 header .menu ul{
     display: flex;
-    justify-content: space-evenly;
-    
-
-    
-    
+    justify-content: center;
 }
 header .menu h1{
     text-align: center;
     align-items: center;
     color: white;
+    background-color: #E63946;
+    border-radius: 100px;
+    padding: 10px;
+}
+header .menu img{
+    width: 100px;
+    height: 100px;
+    background-color: #E63946;
+    border-radius: 50%;
+    
+
 }
 header .menu ul .list a{
     
@@ -47,11 +52,8 @@ header .menu ul .list a{
     text-align: center;
     text-decoration: none;
     list-style-type: none;
-    background: #F7971E;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    padding: 50px;
+    background-color: #E63946;
+    padding: 10px;
     border-radius: 50px;
     
     
@@ -61,6 +63,8 @@ header .menu ul .list{
     text-decoration: none;
     list-style-type: none;
     margin: 20px 50px;
+    
+    
      
     
 }
@@ -70,6 +74,7 @@ header .menu ul .list img{
     
 }
 /*header grid*/
+
 .layout .header .logo{
     display: none;
 }
@@ -87,12 +92,21 @@ header .menu ul .list img{
     cursor: pointer;
 }
 .layout .header{
-    background: #FFE000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-width: 100vw;
+    background-color: #1D3557;
+    width: 100vw;
 
 }
+.layout .header .menu{
+    display: flex;
+    justify-content: space-between;
+}
+.layout .header .menu img{
+    width: 100px;
+    height: 100px;
+    background-color: #E63946;
+    border-radius: 50%;
+}
+
 .layout .header .menu ul{
     display: flex;
     justify-content: space-evenly;
@@ -105,14 +119,26 @@ width: 100vw;
     margin: 20px 50px;
     
 }
+.list:hover{
+    transform: scale(1.2);
+    
+    
+}
+.layout .header .list:hover{
+    transform: scale(1.2);
+    
+    
+}
 .layout .header .menu ul .list img{
     width: 100px;
     
 }
 .layout .header .menu h1{
-    text-align: center;
-    align-items: center;
     color: white;
+    background-color: #E63946;
+    border-radius: 100px;
+    padding: 10px;
+    
 }
 .layout .header .menu ul .list a{
     color: white;
@@ -120,11 +146,9 @@ width: 100vw;
     text-align: center;
     text-decoration: none;
     list-style-type: none;
-    background: #F7971E;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #E63946;
 
-    padding: 50px;
+    padding: 10px;
     border-radius: 50px;
     
     
@@ -179,9 +203,7 @@ header label:hover{
 
 .banner .banner-text a{
     text-decoration: none;
-    background: #F7971E;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #E63946;
 
     padding: 10px;
     font-size: 20px;
@@ -199,19 +221,14 @@ main section div .map{
     display: flex;
     padding: 50px;
     margin: 10px;
-    background: #F7971E;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #E63946;
 
     
     
 
 }
 .map-text{
-    background: #F7971E;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-color: #E63946;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -234,14 +251,32 @@ background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, F
     gap: 30px;
     justify-content: center;
     margin-top:50px ;
+    background-color: #E63946;
+    padding: 20px;
 }
 .layout .main .body-grid{
     width: 200px;
     height: 200px;
+    background-color: #1D3557;
+    padding: 20px;
+    color: white;
+    
+    
+
+}
+.layout .main .body-grid h2{
+    margin: 20px;
+}
+
+.body-grid img:hover{
+    transform: scale(1.2);
+    
+    
 }
 .layout .main .body-grid img{
     width: 200px;
     height: 200px;
+
 }
 /*productos grid*/
 .layout {
@@ -280,9 +315,7 @@ background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, F
     width: 250px;
     height: 250px;
     margin:  0 50px 50px 50px;
-    background: #FFE000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #E63946;
     background-size: cover;
     background-position: left;
     
@@ -310,9 +343,7 @@ main #btn1 lord-icon{
 
 main .section{
     position:absolute;
-    background: #F7971E;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #A8DADC;
     
 
     visibility: hidden;
@@ -462,21 +493,23 @@ footer .redes{
     height: 100%;
     display: flex;
     list-style: none;
-    background: #F7971E;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #E63946;
 
     justify-content: space-between;
     
+}
+.redes:hover{
+    transform: scale(1.2);
+}
+.layout .footer .redes:hover{
+    transform: scale(1.2);
 }
 footer .redes img{
     width: 50px;
     height: 50px;
 }
 .layout .footer ol{
-    background: #F7971E;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #E63946;
 }
     
 
@@ -498,7 +531,7 @@ footer .redes img{
         align-items: center;
         text-align: center;
         list-style: none;
-        height: 80px;
+        height: 20px;
         
         
         
@@ -507,7 +540,14 @@ footer .redes img{
         display: block;
         width: 70px;
         margin-left: 25px;
+        background-color: #E63946;
+        border-radius: 100px;
         
+    }
+    header .menu img{
+        display: none;
+        
+    
     }
     
     header #logo-hidden{
@@ -527,9 +567,7 @@ footer .redes img{
         position: absolute;
         top: 70px;
         flex-direction: column;
-        background: #FFE000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-color: #1D3557;
         visibility: hidden;
         width: 100vw;
 
@@ -552,6 +590,11 @@ footer .redes img{
 
 
     }
+    .layout .header .menu img{
+        display: none;
+        
+    
+    }
     .layout .header .menu h1{
         display: none;
     }
@@ -565,7 +608,7 @@ footer .redes img{
         border-radius: 30px;
         padding: 10px;
         list-style: none;
-        height: 80px;
+        height: 20px;
         
     }
 
@@ -573,6 +616,8 @@ footer .redes img{
         display: block;
         width: 70px;
         margin-left: 25px;
+        background-color: #E63946;
+        border-radius: 100px;
     }
     .layout .header #logo-hidden{
         display: none;
@@ -592,9 +637,7 @@ footer .redes img{
         position: absolute;
         top: 70px;
         flex-direction: column;
-        background: #FFE000;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-color: #1D3557;
 
         visibility: hidden;
         width: 100vw;
@@ -618,19 +661,29 @@ footer .redes img{
 
     .layout .main{
         display: flex;
-        gap: 30px;
+        gap: 10px;
         flex-direction: column;
         margin-top:50px ;
         text-align: center;
         align-items: center;
+        
+        
+        
     }
     .layout .main .body-grid{
-        width: 200px;
+        
+        width: 170px;
         height: 200px;
+        color: white;
+        padding: 0px;
     }
     .layout .main .body-grid img{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
+        
+    }
+    .layout .main .body-grid h2{
+        margin: 0px;
     }
     /*productos grid*/
     .layout {
@@ -661,7 +714,7 @@ footer .redes img{
         width: 300px;
         margin: 0;
         padding: 0;
-        background-color: #799F0C;
+        background-color: #E63946;
         padding: 10px;
     }
     main section .container .map-text{
@@ -691,9 +744,7 @@ footer .redes img{
     
     main .section{
         position:absolute;
-        background: #FFE000;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       background-color: #A8DADC;
         visibility: hidden;
         width: 90vw;
         display: flex;
@@ -858,9 +909,7 @@ footer .redes img{
         margin:  0 ;
         border-color: aliceblue;
         border: 10px;
-        background: #FFE000;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-color: #E63946;
         background-size: cover;
         background-position: left;
         text-align: center;
@@ -873,9 +922,7 @@ footer .redes img{
         height: 100%;
         display: flex;
         list-style: none;
-        background: #F7971E;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-color: #E63946;
         justify-content: space-between;
         
     }
@@ -884,9 +931,7 @@ footer .redes img{
         height: 50px;
     }
     .layout .footer ol{
-        background: #F7971E;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-color: #E63946;
     }
 }
     
