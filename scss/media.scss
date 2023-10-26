@@ -1,0 +1,268 @@
+@media screen and (max-width: 1024px) and (min-width: 320px){
+    
+    
+
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            .logo{
+                display: block;
+                width: 70px;
+                margin-left: 25px;
+                background-color: $colorprincipal;
+                border-radius: 100px;
+                
+            }
+        }
+        #btn_menu:checked~.menu{
+            visibility: visible;
+        } 
+        label{
+            display: block;
+            position: relative;
+            margin-right: 25px;
+            img{
+                width: 50px;
+            
+            } 
+        }
+        .menu{
+            position: absolute;
+            top: 70px;
+            flex-direction: column;
+            background-color: #1D3557;
+            visibility: hidden;
+            width: 100vw;
+            h1{
+                display: none;
+            } 
+            a{
+                img{
+                    display: none;
+                } 
+            }
+            ul{
+                flex-direction:column ;
+                .list{
+                    align-items: center;
+                    text-align: center;
+                    list-style: none;
+                    height: 20px;
+                }
+            }
+        }
+        
+    }
+    main{
+        .banner{
+                display: flex;
+                margin: 100px 20px;
+                padding:70px ;
+                height: 100%;
+        }
+        section{
+            display: flex;
+            margin-top: 110px;
+            flex-direction: column;
+            div{
+                color: white; 
+                padding: 0px;
+                
+                .object{
+                    margin: 0;
+                    padding: 0;
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+            #contenedor{
+                display: flex;
+                flex-direction: row;
+                justify-content:space-evenly ;
+                padding: 10px;
+                flex-wrap: wrap;
+                margin: 50px;
+                text-align: center;
+                align-items: center;
+                .card1{
+                    padding: 40px;
+                    width: 250px;
+                    height: 250px;
+                    margin:  0 ;
+                    border-color: aliceblue;
+                    border: 10px;
+                    background-color:$colorprincipal;
+                    background-size: cover;
+                    background-position: left;
+                    text-align: center;
+                }
+            }
+            .container{
+                flex-direction: column;
+                .map{
+                    height: 350px;
+                    width: 300px;
+                    margin: 0;
+                    padding: 0;
+                    background-color:$colorprincipal;
+                    padding: 10px;
+                }
+                .map-text{
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: x-large;
+                    color: white;
+                    border-radius: 50px;
+                    padding: 5px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        #btn-menu{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-top: 10px;
+            text-align: center;
+            width: 250px ;
+            align-items: center;
+            div{
+                #btn{
+                    display: none;
+                }
+                #btn:checked~.section{
+                    visibility: visible;
+                }
+                #btn1{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;  
+                    lord-icon{
+                        position: relative;
+                        display: none;
+                    } 
+                } 
+                #btn1:hover{
+                    cursor: pointer;
+                }
+                .section{
+                    position:absolute;
+                    background-color: $colorprincipal;
+                    visibility: hidden;
+                    width: 90vw;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    
+                }
+                
+            }
+        }
+        #btn-menu1{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-top: 400px ;
+            text-align: center;
+            width: 250px;
+            align-items: center;
+            div{
+                #btn2{
+                    display: none;
+                }
+                #btn2:checked~.section{
+                    visibility: visible;
+                } 
+                #btn3:hover{
+                    cursor: pointer;
+                }
+                #btn3{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;  
+                    lord-icon{
+                        position: relative;
+                        display: none;
+                    }
+                }
+            }
+        }
+        #btn-menu2{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-top:400px ;
+            text-align: center;
+            width: 250px;
+            align-items: center;
+            div{
+                #btn4{
+                    display: none;
+                }
+                #btn4:checked~.section{
+                    visibility: visible;
+                } 
+                #btn5:hover{
+                    cursor: pointer;
+                }
+                #btn5{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;  
+                    lord-icon{
+                        position: relative;
+                        display: none;
+                    }
+                }
+            }
+        }
+        #btn-menu3{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-top:400px ;
+            text-align: center;
+            width: 250px;
+            align-items: center;
+            div{
+                #btn6{
+                    display: none;
+                }
+                #btn6:checked~.section{
+                    visibility: visible;
+                } 
+                #btn7:hover{
+                    cursor: pointer;
+                }
+                #btn7{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;  
+                    lord-icon{
+                        position: relative;
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .redes{
+            margin-top:400px;
+            width: 200px;
+            height: 50px;
+            display: flex;
+            list-style: none;
+            background-color: $colorprincipal;
+            justify-content: space-between;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}

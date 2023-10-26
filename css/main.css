@@ -45,6 +45,10 @@ header .menu a img {
   background-color: #E63946;
   border-radius: 50%;
 }
+header .menu a img:hover {
+  transform: rotate(360deg);
+  transition: 2s;
+}
 header .menu ul {
   display: flex;
   justify-content: center;
@@ -55,7 +59,7 @@ header .menu ul .list:hover {
 header .menu ul .list {
   text-decoration: none;
   list-style-type: none;
-  margin: 20px 50px;
+  margin: 20px 10px;
 }
 header .menu ul .list img {
   width: 100px;
@@ -66,9 +70,9 @@ header .menu ul .list a {
   text-align: center;
   text-decoration: none;
   list-style-type: none;
-  background-color: #E63946;
+  border: #E63946 solid 2px;
   padding: 10px;
-  border-radius: 50px;
+  border-radius: 100px;
 }
 
 /*main*/
@@ -122,9 +126,9 @@ main section div .object:hover {
 main .container {
   display: flex;
   justify-content: center;
-  text-align: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 main .container .map-text {
   background-color: #E63946;
@@ -145,6 +149,7 @@ main .container .map {
 }
 
 #contenedor {
+  background-color: #1D3557;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -153,13 +158,12 @@ main .container .map {
   margin: 50px;
 }
 #contenedor .card1 {
+  margin-top: 50px;
   padding: 40px;
   width: 250px;
   height: 250px;
   margin: 0 50px 50px 50px;
   background-color: #E63946;
-  background-size: cover;
-  background-position: left;
   text-align: center;
 }
 
@@ -179,6 +183,8 @@ main .container .map {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: none;
+  text-align: none;
 }
 #btn1 lord-icon {
   position: relative;
@@ -186,7 +192,7 @@ main .container .map {
 
 .section {
   position: absolute;
-  background-color: #A8DADC;
+  background-color: #E63946;
   visibility: hidden;
   width: 90%;
   display: flex;
@@ -210,6 +216,8 @@ main .container .map {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: none;
+  text-align: none;
 }
 #btn3 lord-icon {
   position: relative;
@@ -231,6 +239,8 @@ main .container .map {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: none;
+  text-align: none;
 }
 #btn5 lord-icon {
   position: relative;
@@ -252,6 +262,8 @@ main .container .map {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: none;
+  text-align: none;
 }
 #btn7 lord-icon {
   position: relative;
@@ -302,10 +314,14 @@ main .container .map {
 }
 
 /*footer*/
+footer {
+  display: flex;
+  justify-content: center;
+}
 footer .redes {
   margin-top: 20px;
-  width: 15%;
-  height: 100%;
+  width: 150px;
+  height: 50px;
   display: flex;
   list-style: none;
   background-color: #E63946;
@@ -319,7 +335,7 @@ footer .redes:hover {
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 1200px) and (min-width: 320px) {
+@media screen and (max-width: 1024px) and (min-width: 320px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -375,6 +391,7 @@ footer .redes:hover {
   main section {
     display: flex;
     margin-top: 110px;
+    flex-direction: column;
   }
   main section div {
     color: white;
@@ -433,7 +450,7 @@ footer .redes:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 10px;
     text-align: center;
     width: 250px;
     align-items: center;
@@ -458,7 +475,7 @@ footer .redes:hover {
   }
   main #btn-menu div .section {
     position: absolute;
-    background-color: #A8DADC;
+    background-color: #E63946;
     visibility: hidden;
     width: 90vw;
     display: flex;
@@ -469,7 +486,7 @@ footer .redes:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 400px;
     text-align: center;
     width: 250px;
     align-items: center;
@@ -496,7 +513,7 @@ footer .redes:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 400px;
     text-align: center;
     width: 250px;
     align-items: center;
@@ -523,7 +540,7 @@ footer .redes:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 400px;
     text-align: center;
     width: 250px;
     align-items: center;
@@ -547,9 +564,9 @@ footer .redes:hover {
     display: none;
   }
   footer .redes {
-    margin-top: 100px;
+    margin-top: 400px;
     width: 200px;
-    height: 100%;
+    height: 50px;
     display: flex;
     list-style: none;
     background-color: #E63946;
